@@ -1,0 +1,401 @@
+/* body */
+
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: #fff;
+    }
+
+
+/* Navigation bar */
+
+    .navbar-brand{
+        font-family: Cambria;
+        color: black;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .navbar-nav{
+    	font-size:17px;
+    }
+    .nav-item{
+        position: relative;
+        font-family: Cambria;
+        font-weight: bold;
+        margin: 8px 15px;
+        padding: 5px 10px;
+        color: black;
+        text-align: center;
+    }
+    .navbar-nav a.active,
+    .navbar-nav a:hover{
+    	color: white;
+    	background: #007bff;
+    	border-radius:5px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+
+/* Main Section */
+
+    .detail{
+        width: 100%;
+        height: 95vh;
+        background-image: url("Image/bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .text-container{
+        position: absolute;
+        left: 17%;
+        top: 60%;
+        transform: translate(-17%,-55%);
+    }
+    .text-container p{
+        line-height: 0px;
+        margin: 45px 0px 25px;
+    }
+    .text-container p a:hover{
+        color: #007bff;
+        text-decoration: none;
+    }
+    .text-container p:nth-child(1){
+        font-family: Cambria;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .text-container p:nth-child(2){
+        font-family: Calibri;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 10vmin;
+    }
+    .text-container p:nth-child(3){
+        font-family: Cambria;
+        font-size: 5vmin;
+        font-weight: bold;
+        margin: 60px 0 40px 0;
+    }
+    .social{
+        position: relative;;
+        display:flex;
+        right: 48px;
+    }
+    .social li{
+        list-style:none;
+        margin: 0px 3px;
+        text-align: center;
+    }
+    .social li i{
+        color: white;
+        border-radius: 5px;
+        line-height: 42px;
+        height: 42px;
+        width: 42px;
+    }
+    .text-container a{
+        margin: 10px 5px 0px 5px;
+        border-radius: 5px;
+    }
+    .social li a .fa{
+        transition: 1s;
+    }
+    .social li a:hover .fa{
+        transform: scale(1.2);
+    }
+    .fa-google-plus{
+        background: #dd4b39;
+    }
+    .fa-facebook{
+        background: #3b5998;
+    }
+    .fa-instagram{
+        background: #fd1d1d;
+    }
+    .fa-linkedin{
+        background: #0077b5;
+    }
+    .fa-github{
+        background: #211f1f;
+        font-size: 20px;
+    }
+    .fa-twitter{
+        background: #1da1f2;
+    }
+    .fa-facebook-f{
+        background: #00b22d;
+    }
+    .detail-button .detail-button:hover a:nth-child(1){
+        background: #007bff;
+        border-color: #007bff;
+        transition: 0.7s;
+    }
+    .detail-button a:nth-child(2){
+        color: #007bff;
+        border-color: #007bff;
+    }
+    .detail-button a:nth-child(2):hover{
+        color: white;
+        transition: 0.7s;
+    }
+    .detail-model{
+        height: 500px;
+        position: absolute;
+        left: 60%;
+        top: 21%;
+        transform: translateX(-72%);
+    }
+
+
+    /* About Section */
+
+    .about{
+        width: 90%;
+        height: 650px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 5px 5px 18px rgba(0,0, 0, 0.5);
+        display: flex;
+        margin: -60px auto 20px auto;
+        position: relative;
+    }
+    .about-img{
+        margin: 35px 5px;
+        height: 580px;
+        position: relative;
+    }
+    .about-info h1{
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 70px;
+        margin: 50px 0px 40px 30px;
+        color: #403e3e;
+    }
+    .about-info p{
+        margin: 0px 0px 11px 20px;
+        font-family: Calibri;
+        font-size: 18px;
+        color: #403e3e;
+    }
+    .about-info p strong{
+        color: black;
+    }
+    .about-info a{
+        color: #403e3e;
+        font-family: Calibri;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .about-info .btn{
+        border-radius: 5px;
+        margin: 35px 0px 90px 35px;
+        font-family: Calibri;
+        color: white;
+    }
+    .about-info .btn-outline-primary{
+        color: #007bff;
+        border-color: #007bff;
+    }
+    .about-info .btn-outline-primary:hover{
+        color: white;
+        border-color: #007bff;
+        transition: 0.7s;
+    }
+
+
+/* Scroll Section */
+
+    .scroll{
+        margin: 100px 0px 50px 0px;
+    }
+    .list-group a{
+        font-size: 22px;
+        font-weight: bold;
+        font-family: Cambria;
+        margin-bottom: 10px;
+        padding: 2px 0 2px 15px;
+    }
+    .list-group a:hover,
+    .list-group a:active{
+        background: #007bff;
+        border-radius: 10px;
+        padding-left: 35px;
+        transition: 0.7s;
+        color: white;
+        text-decoration: none;
+    }
+    #scrollspy{
+        margin-bottom: 80px;
+    }
+    .scrollspy h4{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Cambria;
+        color: #007bff;
+        margin-bottom: 40px;
+    }
+    .scrollspy i{
+        font-size: 30px;
+        background: #007bff;
+        height: 60px;
+        width: 60px;
+        padding: 15px 13px;
+        border-radius: 50%;
+        margin-right: 20px;
+    }
+    .scrollspy p:nth-child(1){
+        margin-top: 0px;
+    }
+    .media{
+        margin-top: 20px;
+    }
+    .media h5:nth-child(1){
+        color: #007bff;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .media h5:nth-child(2){
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .skill p{
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 18px;
+        margin: 20px 0 7px 0;
+    }
+    .progress{
+        height: 13px;
+    }
+
+
+/* Collabration Section */
+
+    .img-jmbo{
+        background-image:url("Image/Contact  Us.jpg");
+        color:white;
+        padding: 55px 0;
+        margin: 50px 0px;
+    }
+    .img-jmbo span{
+        color: #007bff;
+    }
+    .img-jmbo h1{
+        font-family: Calibri;
+        font-weight: bold;
+        font-size: 50px;
+        text-align: center;
+    }
+    .img-jmbo p{
+        text-align: center;
+    }
+    .img-jmbo a{
+        border-radius: 20px;
+        padding: 7px 25px;
+        margin-top: 20px;
+        background: #007bff;
+        transition: 0.7s;
+    }
+
+
+/* Contact Section */
+
+    .Contact{
+        text-align: center;
+        margin: 85px 0px 70px 0px;
+        font-size: 60px;
+        font-family: Calibri;
+        font-weight: bold;
+    }
+    .card{
+        margin: 20px 5px;
+        box-shadow: 3px 5px 18px rgba(0,0, 0, 0.5);
+    }
+    .card-body{
+        height: 250px;
+    }
+    .card-body i{
+        margin: 5px 0px 0px 0px;
+        font-size: 35px;
+        background: #007bff;
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        color: white;
+        padding: 33px 0px 0px 0px;
+    }
+    .card-body h5{
+        margin-top: 25px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .card-body p{
+        text-align: center;
+    }
+    .card-body a{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+    }
+    .contact-box{
+        background: whitesmoke;
+        padding:30px 10px;
+        margin: 60px 0px 70px 0px;
+    }
+    .contact-box input{
+        margin: 5px 0;
+    }
+    #fn, #fe, #fs, #fm{
+        color: red;
+    }
+    .contact-box button{
+        margin-top: 30px;
+        border-radius: 20px;
+        padding: 7px 25px;
+        background: #007bff;
+        transition: 0.7s;
+    }
+    .contact-box-img img{
+        width: 350px;
+        height: 340px;
+        margin: 15px 0px 0px 80px;
+    }
+
+
+/* Footer Section */
+
+    .footer{
+        background: #222;
+        color: whitesmoke;
+        padding: 100px 0px 60px 0px;
+    }
+    .footer h4{
+        font-size: 30px;
+        font-family: Cambria;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+    #first-heading{
+        margin-left: 17px;
+    }
+    .footer p{
+        margin-bottom: 20px;
+    }
+    .footer i{
+        margin-right: 15px;
+    }
+    .footer ul{
+        margin: 5px 0px 40px 18px;
+    }
+    .footer a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    .footer-copyright{
+        background: black;
+        color: white;
+        padding: 3px 0px;
+        font-family: Cambria;
+    }
